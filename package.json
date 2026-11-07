@@ -1,0 +1,14 @@
+{
+  "description": "Customer-support triage agent: classifies tickets, answers from a knowledge base, or escalates to a human \u2014 with an explicit tool-use loop and a deterministic fallback.",
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "name": "ai-support-agent",
+  "scripts": {
+    "start": "node src/index.ts",
+    "test": "node --test test/*.test.ts"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
